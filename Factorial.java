@@ -1,16 +1,13 @@
-public class Factorial {
-   static int fact=5;
+class Factorial{
+   static int num=5;
     public static void main(String[] args) {
-        int result=1;
-        for(int i=fact;i>0;i--)
-        {
-           result=result*i;
-           
-           
-             
+        int fact=1;
+        for(int i=num;i>0;i--){
+            fact=fact*i;
+          
+            
         }
-       
-        System.out.println(result);
+        System.out.println(fact);
+
     }
 }
-
