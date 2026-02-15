@@ -10,4 +10,3 @@ public class Reverse {
         System.out.println(reverse);
        }
 }
-git
